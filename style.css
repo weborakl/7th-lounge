@@ -428,8 +428,8 @@ body, html {
 
     .logonav{
         width: auto;
-        height: 55px;
-        margin-top: 12px;
+        height: 45px;
+        margin-top: 16px;
         float: none;
         margin-left: 8px;
         display: inline-flex;
