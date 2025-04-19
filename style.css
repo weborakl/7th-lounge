@@ -22,11 +22,11 @@
     }
 
     .nav {
-        background-color: #57091e;
+        background-color: #19382b;
         width: 100%;
         height: 70px;
         margin: auto;
-        border-radius: 0px 0px 30px 30px;
+        border-radius: 0px 0px 0px 0px;
         text-align: center;
     }
 
@@ -90,46 +90,7 @@
       
     }
 
-    .buttoniconweb{
-        width: 30px;
-        margin-top: 10px;
-        
-    }
-      
-    .main {
-        display: flex;
-        margin-top: -15px;
-    }
-
-    .mobilebuttons{ 
-        width: 50%;
-        height: 150px;
-        
-    }
-
-    .mobilebuttonstwo{
-        width: 50%;
-        height: 150px;
-    }
-
-    .mbsocialbutton{
-        width: 250px;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: 20px;
-        margin-top: 10px;
-    }
-
-
-    .mbsocialbuttontwo{
-        width: 250px;
-        height: auto;
-        display: block;
-        margin-left: 20px;
-        margin-right: auto;
-        margin-top: 10px;   
-    }
+    
 
 
 
@@ -151,7 +112,7 @@
     font-size: 28px;
     padding-top: 25px;
     margin-bottom: 0%;
-    color: #480b1b;
+    color: #19382b;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
 }
@@ -160,7 +121,7 @@
 .hitheretext2{
     font-size: 18px;
     margin-top: 10px;
-    color: #480b1b;
+    color: #19382b;
     font-family: "Montserrat", sans-serif;
     line-height: 23px;
     margin-bottom: 10px;
@@ -176,7 +137,7 @@
         font-size: 13.5pt;
         font-family: "Montserrat", sans-serif;
         margin-top: -6px;
-        color: #480b1b;
+        color: #19382b;
         font-weight: 600;
         animation: blinker 2s linear infinite;
         text-decoration: none;
@@ -198,7 +159,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 13pt;
     margin-top: 65px;
-    color: #480b1b;
+    color: #19382b;
     text-align: center;
 }
 
@@ -241,13 +202,13 @@ body, html {
 }
 
 .footer {
-    background-color:#480b1b;
+    background-color:#19382b;
     color: white;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 25px;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     width: 100%;
@@ -255,6 +216,154 @@ body, html {
     bottom: 0;
     margin-top: auto; /* Pushes it to the bottom */
 }
+
+
+.buttoniconweb{
+    width: 30px;
+    margin-top: 10px;
+    
+}
+  
+
+
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-top: 25px;
+    
+
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    padding: 4px 4px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    transition: transform 1.3s ease-in-out;
+    animation: pulse 1s infinite alternate;
+    margin-left: 470px;
+
+}
+
+.social-buttontwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    padding: 4px 4px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    transition: transform 1.3s ease-in-out;
+    animation: pulse 1s infinite alternate;
+    margin-left: 60px;
+    
+    
+   
+
+}
+
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+    
+
+
+.social-text {
+    flex-grow: 1;
+    text-align: left;
+    padding-left:35px;
+   
+}
+.whatsapp { background: #19382b; }
+.whatsapp:hover { background: #3b755d; }
+.instagram { background: #19382b; }
+.instagram:hover { background: #3b755d; }
+.facebook { background: #19382b; }
+.facebook:hover { background: #3b755d; }
+.call { background: #19382b; }
+.call:hover { background: #3b755d;   }
+
+
+
+
+
+.icon-container {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.social-button img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(0);
+}
+.social-buttontwo img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(0);
+}
+
+
+
+.main {
+    display: flex;
+    margin-top: -15px;
+    
+}
+
+.mobilebuttons{ 
+    width: 50%;
+    height: 150px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+}
+
+
+.mobilebuttonstwo{
+    width: 50%;
+    height: 150px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -306,7 +415,7 @@ body, html {
 
 
     .nav {
-        background-color: #480b1b;
+        background-color: #19382b;
         width: 100%;
         height: 80px;
         margin: auto;
@@ -346,7 +455,7 @@ body, html {
     }
 
     .welcome{
-        color: #480b1b;
+        color: #19382b;
         text-align: center;
         font-size: 16pt;
        font-weight: 300;
@@ -355,7 +464,7 @@ body, html {
         
     }
     .welcome2{
-        color: #480b1b;
+        color: #19382b;
         text-align: center;
         font-size: 15pt;
        font-weight: 500;
@@ -370,7 +479,7 @@ body, html {
             font-size: 111%;
             font-family: "Montserrat", sans-serif;
             margin-top: -6px;
-            color: #480b1b;
+            color: #19382b;
             font-weight: 600;
             animation: blinker 2s linear infinite;
             text-decoration: none;
@@ -402,7 +511,7 @@ body, html {
 
 
     .secondnav{
-        background-color: #ffeeef;
+        background-color: #f9f9f9;
         width: 100%;
         height: 800px;
         border-radius: 60px 60px 0px 0px;
@@ -472,7 +581,7 @@ body, html {
 
 
     .footer {
-        background-color:#480b1b;
+        background-color:#19382b;
         color: white;
         text-align: center;
         padding-top: 40px;
@@ -539,14 +648,14 @@ body, html {
         text-align: left;
         padding-left:35px;
     }
-    .whatsapp { background: #480b1b; }
-    .whatsapp:hover { background: #8c1534; }
-    .instagram { background: #480b1b; }
-    .instagram:hover { background: #8c1534; }
-    .facebook { background: #480b1b; }
-    .facebook:hover { background: #8c1534; }
-    .call { background: #c65b5b; }
-    .call:hover { background: #7a3030;   }
+    .whatsapp { background: #19382b; }
+    .whatsapp:hover { background: #3b755d; }
+    .instagram { background: #19382b; }
+    .instagram:hover { background: #3b755d; }
+    .facebook { background: #19382b; }
+    .facebook:hover { background: #3b755d; }
+    .call { background: #3b755d; }
+    .call:hover { background: #19382b;   }
 
 
 
